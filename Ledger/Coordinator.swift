@@ -13,7 +13,7 @@ final class Coordinator: ObservableObject {
     @Published private var workingHours = [WorkingHour]()
     @Published private var log = Log()
 
-    @Published var userPreferences = UserPreferences()
+    @Published var showSettings = false
 
     @Published var user: User? = nil
     @Published var selectedDestination: Destination?
@@ -22,6 +22,7 @@ final class Coordinator: ObservableObject {
     @Published var sidebarViewModel: NavigationSplitViewSidebarViewModel!
     @Published var contentViewModel: NavigationSplitViewContentViewModel!
     @Published var detailViewModel: NavigationSplitViewDetailViewModel!
+    @Published var userDefaultsViewModel: UserDefaultsViewModel!
 
     var isLoggedIn: Bool {
         user != nil
@@ -32,7 +33,8 @@ final class Coordinator: ObservableObject {
         self.sidebarViewModel = NavigationSplitViewSidebarViewModel(coordinator: self)
         self.contentViewModel = NavigationSplitViewContentViewModel(coordinator: self)
         self.detailViewModel = NavigationSplitViewDetailViewModel(coordinator: self)
+        self.userDefaultsViewModel = UserDefaultsViewModel(coordinator: self)
 
-        self.selectedDestination = userPreferences.selectedDestination
+        self.selectedDestination = userDefaultsViewModel.userDefaults.selectedDestination
     }
 }

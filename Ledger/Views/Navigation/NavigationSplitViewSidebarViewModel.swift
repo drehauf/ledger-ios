@@ -4,6 +4,10 @@ final class NavigationSplitViewSidebarViewModel: ObservableObject {
     @ObservedObject var coordinator: Coordinator
     @Binding var selectedDestination: Destination?
 
+    var name: String? {
+        coordinator.user?.name
+    }
+
     init(coordinator: Coordinator) {
         self.coordinator = coordinator
         self._selectedDestination = Binding(
@@ -12,7 +16,11 @@ final class NavigationSplitViewSidebarViewModel: ObservableObject {
         )
     }
 
-    func logout() {
+    func onLogout() {
         coordinator.user = nil
+    }
+
+    func onOpenSettings() {
+        coordinator.showSettings = true
     }
 }

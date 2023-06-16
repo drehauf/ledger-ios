@@ -24,6 +24,16 @@ struct NavigationSplitViewSidebar: View {
             NavigationLink("Logbuch", value: Destination.log)
         }
         .navigationTitle("Dreh Auf")
-        .navigationBarItems(trailing: Button("Abmelden", action: viewModel.logout))
+        .navigationBarItems(
+            trailing:
+                Menu {
+                    Button("Einstellungen", action: viewModel.onOpenSettings)
+                    Button("Abmelden", action: viewModel.onLogout)
+                } label: {
+                    if let name = viewModel.name {
+                        Text(name)
+                    }
+                }
+        )
     }
 }

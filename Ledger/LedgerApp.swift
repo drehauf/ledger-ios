@@ -8,8 +8,8 @@ import SwiftUI
             Group {
                 if coordinator.isLoggedIn {
                     NavigationSplitView(
-                        columnVisibility: $coordinator.userPreferences.columnVisibility,
-                        preferredCompactColumn: $coordinator.userPreferences.preferredCompactColumn
+                        columnVisibility: $coordinator.userDefaultsViewModel.userDefaults.columnVisibility,
+                        preferredCompactColumn: $coordinator.userDefaultsViewModel.userDefaults.preferredCompactColumn
                     ) {
                         NavigationSplitViewSidebar(viewModel: coordinator.sidebarViewModel)
                     } content: {
@@ -17,12 +17,16 @@ import SwiftUI
                     } detail: {
                         NavigationSplitViewDetail(viewModel: coordinator.detailViewModel)
                     }
+                    .sheet(isPresented: $coordinator.showSettings) {
+                        UserDefaultsView(viewModel: coordinator.userDefaultsViewModel)
+                            .presentationDragIndicator(.visible)
+                    }
                     .customTitleAppearance()
                 } else {
                     LoginView(viewModel: coordinator.loginViewModel)
                 }
             }
-            .tint(coordinator.userPreferences.tintColor)
+            .tint(coordinator.userDefaultsViewModel.userDefaults.tintColor)
         }
     }
 }

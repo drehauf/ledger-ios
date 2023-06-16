@@ -15,9 +15,12 @@ final class LoginViewModel: ObservableObject {
     }
 
     @discardableResult func onLogin() -> KeyPress.Result {
-        coordinator.user = User(mail: mail, password: password)
-        mail = ""
-        password = ""
-        return .handled
+        if !isLoginButtonDisabled {
+            coordinator.user = User(mail: mail, password: password)
+            mail = ""
+            password = ""
+            return .handled
+        }
+        return .ignored
     }
 }
