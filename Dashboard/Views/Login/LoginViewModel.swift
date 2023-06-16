@@ -1,23 +1,21 @@
 import SwiftUI
 
 final class LoginViewModel: ObservableObject {
-    private let coordinator: Coordinator
+    @ObservedObject var coordinator: Coordinator
 
-    @Published var mail: String
-    @Published var password: String
+    @Published var mail: String = ""
+    @Published var password: String = ""
 
     var isLoginButtonDisabled: Bool {
         mail.isEmpty || password.isEmpty
     }
 
-    init(coordinator: Coordinator, mail: String, password: String) {
+    init(coordinator: Coordinator) {
         self.coordinator = coordinator
-        self.mail = mail
-        self.password = password
     }
 
     @discardableResult func onLogin() -> KeyPress.Result {
-        coordinator.isLoggedIn = true
+        coordinator.user = User(mail: mail, password: password)
         mail = ""
         password = ""
         return .handled

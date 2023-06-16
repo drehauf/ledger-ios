@@ -42,6 +42,12 @@
 		3A72C2B22A3C80D6005EAEFA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B12A3C80D6005EAEFA /* Coordinator.swift */; };
 		3A72C2B42A3C80EB005EAEFA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B32A3C80EB005EAEFA /* LoginViewModel.swift */; };
 		3A72C2B82A3C84CB005EAEFA /* Color+Accent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B72A3C84CB005EAEFA /* Color+Accent.swift */; };
+		3A72C2BB2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */; };
+		3A72C2BD2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2BC2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift */; };
+		3A72C2C22A3CA85F005EAEFA /* NavigationSplitViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C12A3CA85F005EAEFA /* NavigationSplitViewContent.swift */; };
+		3A72C2C42A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */; };
+		3A72C2C62A3CA893005EAEFA /* NavigationSplitViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */; };
+		3A72C2C82A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +106,12 @@
 		3A72C2B12A3C80D6005EAEFA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3A72C2B32A3C80EB005EAEFA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3A72C2B72A3C84CB005EAEFA /* Color+Accent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Accent.swift"; sourceTree = "<group>"; };
+		3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewSidebar.swift; sourceTree = "<group>"; };
+		3A72C2BC2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewSidebarViewModel.swift; sourceTree = "<group>"; };
+		3A72C2C12A3CA85F005EAEFA /* NavigationSplitViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewContent.swift; sourceTree = "<group>"; };
+		3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewContentViewModel.swift; sourceTree = "<group>"; };
+		3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewDetail.swift; sourceTree = "<group>"; };
+		3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,12 +267,15 @@
 		3A72C2B52A3C80FC005EAEFA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A72C2C02A3CA851005EAEFA /* Detail */,
+				3A72C2BF2A3CA84E005EAEFA /* Content */,
 				3A72C2B92A3C85EC005EAEFA /* Coordinator */,
 				3A72C2B62A3C8109005EAEFA /* Login */,
 				3A72C2802A3C5FD9005EAEFA /* Misc */,
 				3A72C27F2A3C5FD2005EAEFA /* Company */,
 				3A72C27E2A3C5FCB005EAEFA /* Inventory */,
 				3A72C27D2A3C5F79005EAEFA /* Main */,
+				3A72C2BE2A3CA847005EAEFA /* Sidebar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +296,33 @@
 				3A72C24F2A3C5E44005EAEFA /* CoordinatorView.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3A72C2BE2A3CA847005EAEFA /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */,
+				3A72C2BC2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		3A72C2BF2A3CA84E005EAEFA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2C12A3CA85F005EAEFA /* NavigationSplitViewContent.swift */,
+				3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		3A72C2C02A3CA851005EAEFA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */,
+				3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +462,9 @@
 				3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */,
 				3A72C28C2A3C609A005EAEFA /* CreateInventoryView.swift in Sources */,
 				3A72C28E2A3C60AB005EAEFA /* ModifyInventoryView.swift in Sources */,
+				3A72C2C62A3CA893005EAEFA /* NavigationSplitViewDetail.swift in Sources */,
+				3A72C2BB2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift in Sources */,
+				3A72C2C42A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift in Sources */,
 				3A72C2882A3C6069005EAEFA /* DuplicateOfferView.swift in Sources */,
 				3A72C2A22A3C61B7005EAEFA /* CreateWorkingHourView.swift in Sources */,
 				3A72C2B02A3C6C21005EAEFA /* LoginView.swift in Sources */,
@@ -433,6 +478,8 @@
 				3A72C2A82A3C61FF005EAEFA /* ModifyMemberView.swift in Sources */,
 				3A72C2902A3C60E2005EAEFA /* CreateServiceView.swift in Sources */,
 				3A72C29F2A3C6199005EAEFA /* LoanCalculatorView.swift in Sources */,
+				3A72C2C82A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift in Sources */,
+				3A72C2C22A3CA85F005EAEFA /* NavigationSplitViewContent.swift in Sources */,
 				3A72C24E2A3C5E44005EAEFA /* DashboardApp.swift in Sources */,
 				3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */,
 				3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */,
@@ -440,6 +487,7 @@
 				3A72C2952A3C6118005EAEFA /* CreateMemberView.swift in Sources */,
 				3A72C28A2A3C6089005EAEFA /* ExportInvoiceView.swift in Sources */,
 				3A72C2822A3C600F005EAEFA /* CalendarView.swift in Sources */,
+				3A72C2BD2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift in Sources */,
 				3A72C2B22A3C80D6005EAEFA /* Coordinator.swift in Sources */,
 				3A72C2922A3C60ED005EAEFA /* ModifyServiceView.swift in Sources */,
 				3A72C2A42A3C61C9005EAEFA /* ExportWorkingHoursView.swift in Sources */,
