@@ -1,6 +1,8 @@
 import SwiftUI
 
-struct ContentView: View {
+struct CoordinatorView: View {
+    @ObservedObject var coordinator: Coordinator
+
     var body: some View {
         NavigationView {
             List {
@@ -72,13 +74,10 @@ struct ContentView: View {
                         LogView()
                     }
                 }
+                Button("Abmelden", action: coordinator.logout)
             }
             .navigationTitle("Dreh Auf")
         }
         .customTitleAppearance()
     }
-}
-
-#Preview {
-    ContentView()
 }
