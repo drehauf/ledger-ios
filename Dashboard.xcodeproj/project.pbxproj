@@ -37,6 +37,7 @@
 		3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A52A3C61E3005EAEFA /* LogView.swift */; };
 		3A72C2A82A3C61FF005EAEFA /* ModifyMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A72A3C61FF005EAEFA /* ModifyMemberView.swift */; };
 		3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */; };
+		3A72C2AE2A3C6A08005EAEFA /* View+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2AD2A3C6A08005EAEFA /* View+Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		3A72C2A52A3C61E3005EAEFA /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		3A72C2A72A3C61FF005EAEFA /* ModifyMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMemberView.swift; sourceTree = "<group>"; };
 		3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOfferView.swift; sourceTree = "<group>"; };
+		3A72C2AD2A3C6A08005EAEFA /* View+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Title.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		3A72C24C2A3C5E44005EAEFA /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				3A72C2AB2A3C69FB005EAEFA /* Extensions */,
 				3A72C2802A3C5FD9005EAEFA /* Misc */,
 				3A72C27F2A3C5FD2005EAEFA /* Company */,
 				3A72C27E2A3C5FCB005EAEFA /* Inventory */,
@@ -226,6 +229,22 @@
 				3A72C2A52A3C61E3005EAEFA /* LogView.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		3A72C2AB2A3C69FB005EAEFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2AC2A3C6A03005EAEFA /* SwiftUI */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A72C2AC2A3C6A03005EAEFA /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2AD2A3C6A08005EAEFA /* View+Title.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +386,7 @@
 				3A72C28E2A3C60AB005EAEFA /* ModifyInventoryView.swift in Sources */,
 				3A72C2882A3C6069005EAEFA /* DuplicateOfferView.swift in Sources */,
 				3A72C2A22A3C61B7005EAEFA /* CreateWorkingHourView.swift in Sources */,
+				3A72C2AE2A3C6A08005EAEFA /* View+Title.swift in Sources */,
 				3A72C29B2A3C6143005EAEFA /* ModifyCustomerView.swift in Sources */,
 				3A72C29D2A3C6181005EAEFA /* ExportAnnualAccountsView.swift in Sources */,
 				3A72C2502A3C5E44005EAEFA /* ContentView.swift in Sources */,

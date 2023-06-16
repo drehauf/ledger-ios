@@ -75,11 +75,7 @@ struct ContentView: View {
             }
             .navigationTitle("Dreh Auf")
         }
-        .onAppear {
-            let appearance = UINavigationBar.appearance()
-            appearance.largeTitleTextAttributes = [.font: UIFont(name: .init("Arial Rounded MT Bold"), size: 32)]
-            appearance.titleTextAttributes = [.font: UIFont(name: .init("Arial Rounded MT Bold"), size: 16)]
-        }
+        .customTitleAppearance()
     }
 }
 
