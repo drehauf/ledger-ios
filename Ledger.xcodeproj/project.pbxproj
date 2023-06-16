@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A72C24E2A3C5E44005EAEFA /* DashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C24D2A3C5E44005EAEFA /* DashboardApp.swift */; };
+		3A72C24E2A3C5E44005EAEFA /* LedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C24D2A3C5E44005EAEFA /* LedgerApp.swift */; };
 		3A72C2502A3C5E44005EAEFA /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C24F2A3C5E44005EAEFA /* CoordinatorView.swift */; };
 		3A72C2522A3C5E45005EAEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2512A3C5E45005EAEFA /* Assets.xcassets */; };
 		3A72C2552A3C5E45005EAEFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2542A3C5E45005EAEFA /* Preview Assets.xcassets */; };
-		3A72C25F2A3C5E45005EAEFA /* DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C25E2A3C5E45005EAEFA /* DashboardTests.swift */; };
-		3A72C2692A3C5E45005EAEFA /* DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2682A3C5E45005EAEFA /* DashboardUITests.swift */; };
-		3A72C26B2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C26A2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift */; };
+		3A72C25F2A3C5E45005EAEFA /* LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C25E2A3C5E45005EAEFA /* LedgerTests.swift */; };
+		3A72C2692A3C5E45005EAEFA /* LedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2682A3C5E45005EAEFA /* LedgerUITests.swift */; };
+		3A72C26B2A3C5E45005EAEFA /* LedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C26A2A3C5E45005EAEFA /* LedgerUITestsLaunchTests.swift */; };
 		3A72C2792A3C5E68005EAEFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2772A3C5E67005EAEFA /* README.md */; };
 		3A72C27A2A3C5E68005EAEFA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2782A3C5E67005EAEFA /* LICENSE */; };
 		3A72C27C2A3C5E7D005EAEFA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C27B2A3C5E7D005EAEFA /* .gitignore */; };
@@ -68,16 +68,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A72C24A2A3C5E44005EAEFA /* Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A72C24D2A3C5E44005EAEFA /* DashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardApp.swift; sourceTree = "<group>"; };
+		3A72C24A2A3C5E44005EAEFA /* Ledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ledger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A72C24D2A3C5E44005EAEFA /* LedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerApp.swift; sourceTree = "<group>"; };
 		3A72C24F2A3C5E44005EAEFA /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 		3A72C2512A3C5E45005EAEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A72C2542A3C5E45005EAEFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A72C25A2A3C5E45005EAEFA /* DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A72C25E2A3C5E45005EAEFA /* DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTests.swift; sourceTree = "<group>"; };
-		3A72C2642A3C5E45005EAEFA /* DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A72C2682A3C5E45005EAEFA /* DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUITests.swift; sourceTree = "<group>"; };
-		3A72C26A2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A72C25A2A3C5E45005EAEFA /* LedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A72C25E2A3C5E45005EAEFA /* LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerTests.swift; sourceTree = "<group>"; };
+		3A72C2642A3C5E45005EAEFA /* LedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A72C2682A3C5E45005EAEFA /* LedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITests.swift; sourceTree = "<group>"; };
+		3A72C26A2A3C5E45005EAEFA /* LedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A72C2772A3C5E67005EAEFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A72C2782A3C5E67005EAEFA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3A72C27B2A3C5E7D005EAEFA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 				3A72C27B2A3C5E7D005EAEFA /* .gitignore */,
 				3A72C2782A3C5E67005EAEFA /* LICENSE */,
 				3A72C2772A3C5E67005EAEFA /* README.md */,
-				3A72C24C2A3C5E44005EAEFA /* Dashboard */,
-				3A72C25D2A3C5E45005EAEFA /* DashboardTests */,
-				3A72C2672A3C5E45005EAEFA /* DashboardUITests */,
+				3A72C24C2A3C5E44005EAEFA /* Ledger */,
+				3A72C25D2A3C5E45005EAEFA /* LedgerTests */,
+				3A72C2672A3C5E45005EAEFA /* LedgerUITests */,
 				3A72C24B2A3C5E44005EAEFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,23 +155,23 @@
 		3A72C24B2A3C5E44005EAEFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A72C24A2A3C5E44005EAEFA /* Dashboard.app */,
-				3A72C25A2A3C5E45005EAEFA /* DashboardTests.xctest */,
-				3A72C2642A3C5E45005EAEFA /* DashboardUITests.xctest */,
+				3A72C24A2A3C5E44005EAEFA /* Ledger.app */,
+				3A72C25A2A3C5E45005EAEFA /* LedgerTests.xctest */,
+				3A72C2642A3C5E45005EAEFA /* LedgerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A72C24C2A3C5E44005EAEFA /* Dashboard */ = {
+		3A72C24C2A3C5E44005EAEFA /* Ledger */ = {
 			isa = PBXGroup;
 			children = (
 				3A72C2B52A3C80FC005EAEFA /* Views */,
 				3A72C2AB2A3C69FB005EAEFA /* Extensions */,
-				3A72C24D2A3C5E44005EAEFA /* DashboardApp.swift */,
+				3A72C24D2A3C5E44005EAEFA /* LedgerApp.swift */,
 				3A72C2512A3C5E45005EAEFA /* Assets.xcassets */,
 				3A72C2532A3C5E45005EAEFA /* Preview Content */,
 			);
-			path = Dashboard;
+			path = Ledger;
 			sourceTree = "<group>";
 		};
 		3A72C2532A3C5E45005EAEFA /* Preview Content */ = {
@@ -182,21 +182,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3A72C25D2A3C5E45005EAEFA /* DashboardTests */ = {
+		3A72C25D2A3C5E45005EAEFA /* LedgerTests */ = {
 			isa = PBXGroup;
 			children = (
-				3A72C25E2A3C5E45005EAEFA /* DashboardTests.swift */,
+				3A72C25E2A3C5E45005EAEFA /* LedgerTests.swift */,
 			);
-			path = DashboardTests;
+			path = LedgerTests;
 			sourceTree = "<group>";
 		};
-		3A72C2672A3C5E45005EAEFA /* DashboardUITests */ = {
+		3A72C2672A3C5E45005EAEFA /* LedgerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3A72C2682A3C5E45005EAEFA /* DashboardUITests.swift */,
-				3A72C26A2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift */,
+				3A72C2682A3C5E45005EAEFA /* LedgerUITests.swift */,
+				3A72C26A2A3C5E45005EAEFA /* LedgerUITestsLaunchTests.swift */,
 			);
-			path = DashboardUITests;
+			path = LedgerUITests;
 			sourceTree = "<group>";
 		};
 		3A72C27D2A3C5F79005EAEFA /* Main */ = {
@@ -328,9 +328,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A72C2492A3C5E44005EAEFA /* Dashboard */ = {
+		3A72C2492A3C5E44005EAEFA /* Ledger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A72C26E2A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "Dashboard" */;
+			buildConfigurationList = 3A72C26E2A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "Ledger" */;
 			buildPhases = (
 				3A72C2462A3C5E44005EAEFA /* Sources */,
 				3A72C2472A3C5E44005EAEFA /* Frameworks */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = Dashboard;
+			name = Ledger;
 			productName = Dashboard;
-			productReference = 3A72C24A2A3C5E44005EAEFA /* Dashboard.app */;
+			productReference = 3A72C24A2A3C5E44005EAEFA /* Ledger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A72C2592A3C5E45005EAEFA /* DashboardTests */ = {
+		3A72C2592A3C5E45005EAEFA /* LedgerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A72C2712A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "DashboardTests" */;
+			buildConfigurationList = 3A72C2712A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "LedgerTests" */;
 			buildPhases = (
 				3A72C2562A3C5E45005EAEFA /* Sources */,
 				3A72C2572A3C5E45005EAEFA /* Frameworks */,
@@ -358,14 +358,14 @@
 			dependencies = (
 				3A72C25C2A3C5E45005EAEFA /* PBXTargetDependency */,
 			);
-			name = DashboardTests;
+			name = LedgerTests;
 			productName = DashboardTests;
-			productReference = 3A72C25A2A3C5E45005EAEFA /* DashboardTests.xctest */;
+			productReference = 3A72C25A2A3C5E45005EAEFA /* LedgerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3A72C2632A3C5E45005EAEFA /* DashboardUITests */ = {
+		3A72C2632A3C5E45005EAEFA /* LedgerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A72C2742A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "DashboardUITests" */;
+			buildConfigurationList = 3A72C2742A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "LedgerUITests" */;
 			buildPhases = (
 				3A72C2602A3C5E45005EAEFA /* Sources */,
 				3A72C2612A3C5E45005EAEFA /* Frameworks */,
@@ -376,9 +376,9 @@
 			dependencies = (
 				3A72C2662A3C5E45005EAEFA /* PBXTargetDependency */,
 			);
-			name = DashboardUITests;
+			name = LedgerUITests;
 			productName = DashboardUITests;
-			productReference = 3A72C2642A3C5E45005EAEFA /* DashboardUITests.xctest */;
+			productReference = 3A72C2642A3C5E45005EAEFA /* LedgerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -404,7 +404,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A72C2452A3C5E44005EAEFA /* Build configuration list for PBXProject "Dashboard" */;
+			buildConfigurationList = 3A72C2452A3C5E44005EAEFA /* Build configuration list for PBXProject "Ledger" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -417,9 +417,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A72C2492A3C5E44005EAEFA /* Dashboard */,
-				3A72C2592A3C5E45005EAEFA /* DashboardTests */,
-				3A72C2632A3C5E45005EAEFA /* DashboardUITests */,
+				3A72C2492A3C5E44005EAEFA /* Ledger */,
+				3A72C2592A3C5E45005EAEFA /* LedgerTests */,
+				3A72C2632A3C5E45005EAEFA /* LedgerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,7 +480,7 @@
 				3A72C29F2A3C6199005EAEFA /* LoanCalculatorView.swift in Sources */,
 				3A72C2C82A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift in Sources */,
 				3A72C2C22A3CA85F005EAEFA /* NavigationSplitViewContent.swift in Sources */,
-				3A72C24E2A3C5E44005EAEFA /* DashboardApp.swift in Sources */,
+				3A72C24E2A3C5E44005EAEFA /* LedgerApp.swift in Sources */,
 				3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */,
 				3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */,
 				3A72C2972A3C6129005EAEFA /* ModifyCompanyView.swift in Sources */,
@@ -498,7 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A72C25F2A3C5E45005EAEFA /* DashboardTests.swift in Sources */,
+				3A72C25F2A3C5E45005EAEFA /* LedgerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,8 +506,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A72C2692A3C5E45005EAEFA /* DashboardUITests.swift in Sources */,
-				3A72C26B2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift in Sources */,
+				3A72C2692A3C5E45005EAEFA /* LedgerUITests.swift in Sources */,
+				3A72C26B2A3C5E45005EAEFA /* LedgerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,12 +516,12 @@
 /* Begin PBXTargetDependency section */
 		3A72C25C2A3C5E45005EAEFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A72C2492A3C5E44005EAEFA /* Dashboard */;
+			target = 3A72C2492A3C5E44005EAEFA /* Ledger */;
 			targetProxy = 3A72C25B2A3C5E45005EAEFA /* PBXContainerItemProxy */;
 		};
 		3A72C2662A3C5E45005EAEFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A72C2492A3C5E44005EAEFA /* Dashboard */;
+			target = 3A72C2492A3C5E44005EAEFA /* Ledger */;
 			targetProxy = 3A72C2652A3C5E45005EAEFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -653,10 +653,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dashboard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
 				DEVELOPMENT_TEAM = ZGXK69528C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geschäftsbuch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -667,7 +669,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Ledger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -682,10 +684,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dashboard/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
 				DEVELOPMENT_TEAM = ZGXK69528C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geschäftsbuch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -696,7 +700,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Ledger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -715,12 +719,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DashboardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dashboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ledger";
 			};
 			name = Debug;
 		};
@@ -735,12 +739,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DashboardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dashboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ledger";
 			};
 			name = Release;
 		};
@@ -753,12 +757,12 @@
 				DEVELOPMENT_TEAM = ZGXK69528C;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DashboardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LedgerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Dashboard;
+				TEST_TARGET_NAME = Ledger;
 			};
 			name = Debug;
 		};
@@ -771,19 +775,19 @@
 				DEVELOPMENT_TEAM = ZGXK69528C;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.DashboardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LedgerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Dashboard;
+				TEST_TARGET_NAME = Ledger;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A72C2452A3C5E44005EAEFA /* Build configuration list for PBXProject "Dashboard" */ = {
+		3A72C2452A3C5E44005EAEFA /* Build configuration list for PBXProject "Ledger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A72C26C2A3C5E45005EAEFA /* Debug */,
@@ -792,7 +796,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A72C26E2A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "Dashboard" */ = {
+		3A72C26E2A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "Ledger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A72C26F2A3C5E45005EAEFA /* Debug */,
@@ -801,7 +805,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A72C2712A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "DashboardTests" */ = {
+		3A72C2712A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "LedgerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A72C2722A3C5E45005EAEFA /* Debug */,
@@ -810,7 +814,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A72C2742A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "DashboardUITests" */ = {
+		3A72C2742A3C5E45005EAEFA /* Build configuration list for PBXNativeTarget "LedgerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A72C2752A3C5E45005EAEFA /* Debug */,

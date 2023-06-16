@@ -1,6 +1,6 @@
 import SwiftUI
 
-@main struct DashboardApp: App {
+@main struct LedgerApp: App {
     @ObservedObject var coordinator = Coordinator()
 
     var body: some Scene {

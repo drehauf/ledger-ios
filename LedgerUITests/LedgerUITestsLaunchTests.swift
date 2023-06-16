@@ -1,14 +1,6 @@
-//
-//  DashboardUITestsLaunchTests.swift
-//  DashboardUITests
-//
-//  Created by Anton Quietzsch on 16.06.23.
-//
-
 import XCTest
 
-final class DashboardUITestsLaunchTests: XCTestCase {
-
+final class LedgerUITestsLaunchTests: XCTestCase {
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
