@@ -17,6 +17,26 @@
 		3A72C2792A3C5E68005EAEFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2772A3C5E67005EAEFA /* README.md */; };
 		3A72C27A2A3C5E68005EAEFA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C2782A3C5E67005EAEFA /* LICENSE */; };
 		3A72C27C2A3C5E7D005EAEFA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A72C27B2A3C5E7D005EAEFA /* .gitignore */; };
+		3A72C2822A3C600F005EAEFA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2812A3C600F005EAEFA /* CalendarView.swift */; };
+		3A72C2842A3C6052005EAEFA /* CreateOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2832A3C6052005EAEFA /* CreateOfferView.swift */; };
+		3A72C2862A3C605C005EAEFA /* ModifyOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2852A3C605C005EAEFA /* ModifyOfferView.swift */; };
+		3A72C2882A3C6069005EAEFA /* DuplicateOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2872A3C6069005EAEFA /* DuplicateOfferView.swift */; };
+		3A72C28A2A3C6089005EAEFA /* ExportInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2892A3C6089005EAEFA /* ExportInvoiceView.swift */; };
+		3A72C28C2A3C609A005EAEFA /* CreateInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C28B2A3C609A005EAEFA /* CreateInventoryView.swift */; };
+		3A72C28E2A3C60AB005EAEFA /* ModifyInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C28D2A3C60AB005EAEFA /* ModifyInventoryView.swift */; };
+		3A72C2902A3C60E2005EAEFA /* CreateServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C28F2A3C60E2005EAEFA /* CreateServiceView.swift */; };
+		3A72C2922A3C60ED005EAEFA /* ModifyServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2912A3C60ED005EAEFA /* ModifyServiceView.swift */; };
+		3A72C2952A3C6118005EAEFA /* CreateMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2942A3C6118005EAEFA /* CreateMemberView.swift */; };
+		3A72C2972A3C6129005EAEFA /* ModifyCompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2962A3C6129005EAEFA /* ModifyCompanyView.swift */; };
+		3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2982A3C6136005EAEFA /* CreateCustomerView.swift */; };
+		3A72C29B2A3C6143005EAEFA /* ModifyCustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C29A2A3C6143005EAEFA /* ModifyCustomerView.swift */; };
+		3A72C29D2A3C6181005EAEFA /* ExportAnnualAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C29C2A3C6181005EAEFA /* ExportAnnualAccountsView.swift */; };
+		3A72C29F2A3C6199005EAEFA /* LoanCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C29E2A3C6199005EAEFA /* LoanCalculatorView.swift */; };
+		3A72C2A22A3C61B7005EAEFA /* CreateWorkingHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A12A3C61B7005EAEFA /* CreateWorkingHourView.swift */; };
+		3A72C2A42A3C61C9005EAEFA /* ExportWorkingHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A32A3C61C9005EAEFA /* ExportWorkingHoursView.swift */; };
+		3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A52A3C61E3005EAEFA /* LogView.swift */; };
+		3A72C2A82A3C61FF005EAEFA /* ModifyMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A72A3C61FF005EAEFA /* ModifyMemberView.swift */; };
+		3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +70,26 @@
 		3A72C2772A3C5E67005EAEFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A72C2782A3C5E67005EAEFA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3A72C27B2A3C5E7D005EAEFA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3A72C2812A3C600F005EAEFA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3A72C2832A3C6052005EAEFA /* CreateOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOfferView.swift; sourceTree = "<group>"; };
+		3A72C2852A3C605C005EAEFA /* ModifyOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyOfferView.swift; sourceTree = "<group>"; };
+		3A72C2872A3C6069005EAEFA /* DuplicateOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateOfferView.swift; sourceTree = "<group>"; };
+		3A72C2892A3C6089005EAEFA /* ExportInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportInvoiceView.swift; sourceTree = "<group>"; };
+		3A72C28B2A3C609A005EAEFA /* CreateInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInventoryView.swift; sourceTree = "<group>"; };
+		3A72C28D2A3C60AB005EAEFA /* ModifyInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyInventoryView.swift; sourceTree = "<group>"; };
+		3A72C28F2A3C60E2005EAEFA /* CreateServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateServiceView.swift; sourceTree = "<group>"; };
+		3A72C2912A3C60ED005EAEFA /* ModifyServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyServiceView.swift; sourceTree = "<group>"; };
+		3A72C2942A3C6118005EAEFA /* CreateMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMemberView.swift; sourceTree = "<group>"; };
+		3A72C2962A3C6129005EAEFA /* ModifyCompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyCompanyView.swift; sourceTree = "<group>"; };
+		3A72C2982A3C6136005EAEFA /* CreateCustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomerView.swift; sourceTree = "<group>"; };
+		3A72C29A2A3C6143005EAEFA /* ModifyCustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyCustomerView.swift; sourceTree = "<group>"; };
+		3A72C29C2A3C6181005EAEFA /* ExportAnnualAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportAnnualAccountsView.swift; sourceTree = "<group>"; };
+		3A72C29E2A3C6199005EAEFA /* LoanCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCalculatorView.swift; sourceTree = "<group>"; };
+		3A72C2A12A3C61B7005EAEFA /* CreateWorkingHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkingHourView.swift; sourceTree = "<group>"; };
+		3A72C2A32A3C61C9005EAEFA /* ExportWorkingHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportWorkingHoursView.swift; sourceTree = "<group>"; };
+		3A72C2A52A3C61E3005EAEFA /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		3A72C2A72A3C61FF005EAEFA /* ModifyMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMemberView.swift; sourceTree = "<group>"; };
+		3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOfferView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +143,10 @@
 		3A72C24C2A3C5E44005EAEFA /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				3A72C2802A3C5FD9005EAEFA /* Misc */,
+				3A72C27F2A3C5FD2005EAEFA /* Company */,
+				3A72C27E2A3C5FCB005EAEFA /* Inventory */,
+				3A72C27D2A3C5F79005EAEFA /* Main */,
 				3A72C24D2A3C5E44005EAEFA /* DashboardApp.swift */,
 				3A72C24F2A3C5E44005EAEFA /* ContentView.swift */,
 				3A72C2512A3C5E45005EAEFA /* Assets.xcassets */,
@@ -134,6 +178,54 @@
 				3A72C26A2A3C5E45005EAEFA /* DashboardUITestsLaunchTests.swift */,
 			);
 			path = DashboardUITests;
+			sourceTree = "<group>";
+		};
+		3A72C27D2A3C5F79005EAEFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2812A3C600F005EAEFA /* CalendarView.swift */,
+				3A72C2832A3C6052005EAEFA /* CreateOfferView.swift */,
+				3A72C2852A3C605C005EAEFA /* ModifyOfferView.swift */,
+				3A72C2872A3C6069005EAEFA /* DuplicateOfferView.swift */,
+				3A72C2892A3C6089005EAEFA /* ExportInvoiceView.swift */,
+				3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A72C27E2A3C5FCB005EAEFA /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C28B2A3C609A005EAEFA /* CreateInventoryView.swift */,
+				3A72C28D2A3C60AB005EAEFA /* ModifyInventoryView.swift */,
+				3A72C28F2A3C60E2005EAEFA /* CreateServiceView.swift */,
+				3A72C2912A3C60ED005EAEFA /* ModifyServiceView.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		3A72C27F2A3C5FD2005EAEFA /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C2942A3C6118005EAEFA /* CreateMemberView.swift */,
+				3A72C2962A3C6129005EAEFA /* ModifyCompanyView.swift */,
+				3A72C2982A3C6136005EAEFA /* CreateCustomerView.swift */,
+				3A72C29A2A3C6143005EAEFA /* ModifyCustomerView.swift */,
+				3A72C2A72A3C61FF005EAEFA /* ModifyMemberView.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		3A72C2802A3C5FD9005EAEFA /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3A72C29C2A3C6181005EAEFA /* ExportAnnualAccountsView.swift */,
+				3A72C29E2A3C6199005EAEFA /* LoanCalculatorView.swift */,
+				3A72C2A12A3C61B7005EAEFA /* CreateWorkingHourView.swift */,
+				3A72C2A32A3C61C9005EAEFA /* ExportWorkingHoursView.swift */,
+				3A72C2A52A3C61E3005EAEFA /* LogView.swift */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +361,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A72C2862A3C605C005EAEFA /* ModifyOfferView.swift in Sources */,
+				3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */,
+				3A72C28C2A3C609A005EAEFA /* CreateInventoryView.swift in Sources */,
+				3A72C28E2A3C60AB005EAEFA /* ModifyInventoryView.swift in Sources */,
+				3A72C2882A3C6069005EAEFA /* DuplicateOfferView.swift in Sources */,
+				3A72C2A22A3C61B7005EAEFA /* CreateWorkingHourView.swift in Sources */,
+				3A72C29B2A3C6143005EAEFA /* ModifyCustomerView.swift in Sources */,
+				3A72C29D2A3C6181005EAEFA /* ExportAnnualAccountsView.swift in Sources */,
 				3A72C2502A3C5E44005EAEFA /* ContentView.swift in Sources */,
+				3A72C2842A3C6052005EAEFA /* CreateOfferView.swift in Sources */,
+				3A72C2A82A3C61FF005EAEFA /* ModifyMemberView.swift in Sources */,
+				3A72C2902A3C60E2005EAEFA /* CreateServiceView.swift in Sources */,
+				3A72C29F2A3C6199005EAEFA /* LoanCalculatorView.swift in Sources */,
 				3A72C24E2A3C5E44005EAEFA /* DashboardApp.swift in Sources */,
+				3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */,
+				3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */,
+				3A72C2972A3C6129005EAEFA /* ModifyCompanyView.swift in Sources */,
+				3A72C2952A3C6118005EAEFA /* CreateMemberView.swift in Sources */,
+				3A72C28A2A3C6089005EAEFA /* ExportInvoiceView.swift in Sources */,
+				3A72C2822A3C600F005EAEFA /* CalendarView.swift in Sources */,
+				3A72C2922A3C60ED005EAEFA /* ModifyServiceView.swift in Sources */,
+				3A72C2A42A3C61C9005EAEFA /* ExportWorkingHoursView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +559,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,7 +588,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonapps.Dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
