@@ -30,3 +30,7 @@ private enum Constants {
     static let logoWidth = 200.0
     static let textFieldWidth = 300.0
 }
+
+#Preview {
+    LoginView(viewModel: LoginViewModel(coordinator: Coordinator()))
+}

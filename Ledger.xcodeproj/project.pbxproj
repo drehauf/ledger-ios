@@ -48,9 +48,9 @@
 		3A72C2C42A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */; };
 		3A72C2C62A3CA893005EAEFA /* NavigationSplitViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */; };
 		3A72C2C82A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */; };
-		3A72C2CB2A3CC3CA005EAEFA /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CA2A3CC3CA005EAEFA /* UserDefaultsView.swift */; };
-		3A72C2CD2A3CC3D8005EAEFA /* UserDefaultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CC2A3CC3D8005EAEFA /* UserDefaultsViewModel.swift */; };
-		3A72C2CF2A3CC3E9005EAEFA /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CE2A3CC3E9005EAEFA /* UserDefaults.swift */; };
+		3A72C2CB2A3CC3CA005EAEFA /* NavigationDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CA2A3CC3CA005EAEFA /* NavigationDefaultsView.swift */; };
+		3A72C2CD2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CC2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift */; };
+		3A72C2CF2A3CC3E9005EAEFA /* NavigationDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2CE2A3CC3E9005EAEFA /* NavigationDefaults.swift */; };
 		3A72C2D12A3CC43E005EAEFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2D02A3CC43E005EAEFA /* User.swift */; };
 		3A72C2D32A3CC453005EAEFA /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2D22A3CC453005EAEFA /* Destination.swift */; };
 		3A72C2D62A3CC491005EAEFA /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2D52A3CC491005EAEFA /* Calendar.swift */; };
@@ -64,6 +64,10 @@
 		3A72C2EE2A3CC639005EAEFA /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2ED2A3CC639005EAEFA /* Loan.swift */; };
 		3A72C2F12A3CC64E005EAEFA /* WorkingHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2F02A3CC64E005EAEFA /* WorkingHour.swift */; };
 		3A72C2F42A3CC662005EAEFA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2F32A3CC662005EAEFA /* Log.swift */; };
+		3A72C2F82A3CE38D005EAEFA /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2F72A3CE38D005EAEFA /* CalendarViewModel.swift */; };
+		3A72C2FA2A3DB6DB005EAEFA /* CalendarDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2F92A3DB6DB005EAEFA /* CalendarDefaultsView.swift */; };
+		3A72C2FC2A3DB6F5005EAEFA /* CalendarDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2FB2A3DB6F5005EAEFA /* CalendarDefaults.swift */; };
+		3A72C2FE2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2FD2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,9 +132,9 @@
 		3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewContentViewModel.swift; sourceTree = "<group>"; };
 		3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewDetail.swift; sourceTree = "<group>"; };
 		3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewDetailViewModel.swift; sourceTree = "<group>"; };
-		3A72C2CA2A3CC3CA005EAEFA /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
-		3A72C2CC2A3CC3D8005EAEFA /* UserDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewModel.swift; sourceTree = "<group>"; };
-		3A72C2CE2A3CC3E9005EAEFA /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		3A72C2CA2A3CC3CA005EAEFA /* NavigationDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDefaultsView.swift; sourceTree = "<group>"; };
+		3A72C2CC2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDefaultsViewModel.swift; sourceTree = "<group>"; };
+		3A72C2CE2A3CC3E9005EAEFA /* NavigationDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDefaults.swift; sourceTree = "<group>"; };
 		3A72C2D02A3CC43E005EAEFA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3A72C2D22A3CC453005EAEFA /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		3A72C2D52A3CC491005EAEFA /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
@@ -144,6 +148,10 @@
 		3A72C2ED2A3CC639005EAEFA /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		3A72C2F02A3CC64E005EAEFA /* WorkingHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHour.swift; sourceTree = "<group>"; };
 		3A72C2F32A3CC662005EAEFA /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3A72C2F72A3CE38D005EAEFA /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		3A72C2F92A3DB6DB005EAEFA /* CalendarDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDefaultsView.swift; sourceTree = "<group>"; };
+		3A72C2FB2A3DB6F5005EAEFA /* CalendarDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDefaults.swift; sourceTree = "<group>"; };
+		3A72C2FD2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDefaultsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,9 +292,9 @@
 		3A72C2C92A3CC3C2005EAEFA /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				3A72C2CA2A3CC3CA005EAEFA /* UserDefaultsView.swift */,
-				3A72C2CC2A3CC3D8005EAEFA /* UserDefaultsViewModel.swift */,
-				3A72C2CE2A3CC3E9005EAEFA /* UserDefaults.swift */,
+				3A72C2CA2A3CC3CA005EAEFA /* NavigationDefaultsView.swift */,
+				3A72C2CC2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift */,
+				3A72C2CE2A3CC3E9005EAEFA /* NavigationDefaults.swift */,
 			);
 			path = UserDefaults;
 			sourceTree = "<group>";
@@ -295,6 +303,10 @@
 			isa = PBXGroup;
 			children = (
 				3A72C2812A3C600F005EAEFA /* CalendarView.swift */,
+				3A72C2F92A3DB6DB005EAEFA /* CalendarDefaultsView.swift */,
+				3A72C2FB2A3DB6F5005EAEFA /* CalendarDefaults.swift */,
+				3A72C2FD2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift */,
+				3A72C2F72A3CE38D005EAEFA /* CalendarViewModel.swift */,
 				3A72C2D52A3CC491005EAEFA /* Calendar.swift */,
 			);
 			path = Calendar;
@@ -559,22 +571,25 @@
 				3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */,
 				3A72C28C2A3C609A005EAEFA /* CreateInventoryView.swift in Sources */,
 				3A72C28E2A3C60AB005EAEFA /* ModifyInventoryView.swift in Sources */,
+				3A72C2F82A3CE38D005EAEFA /* CalendarViewModel.swift in Sources */,
 				3A72C2C62A3CA893005EAEFA /* NavigationSplitViewDetail.swift in Sources */,
 				3A72C2BB2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift in Sources */,
 				3A72C2E82A3CC592005EAEFA /* Customer.swift in Sources */,
 				3A72C2C42A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift in Sources */,
 				3A72C2E52A3CC579005EAEFA /* Company.swift in Sources */,
 				3A72C2882A3C6069005EAEFA /* DuplicateOfferView.swift in Sources */,
+				3A72C2FC2A3DB6F5005EAEFA /* CalendarDefaults.swift in Sources */,
 				3A72C2D32A3CC453005EAEFA /* Destination.swift in Sources */,
 				3A72C2F12A3CC64E005EAEFA /* WorkingHour.swift in Sources */,
 				3A72C2A22A3C61B7005EAEFA /* CreateWorkingHourView.swift in Sources */,
 				3A72C2B02A3C6C21005EAEFA /* LoginView.swift in Sources */,
 				3A72C2AE2A3C6A08005EAEFA /* View+Title.swift in Sources */,
 				3A72C2B42A3C80EB005EAEFA /* LoginViewModel.swift in Sources */,
+				3A72C2FA2A3DB6DB005EAEFA /* CalendarDefaultsView.swift in Sources */,
 				3A72C29B2A3C6143005EAEFA /* ModifyCustomerView.swift in Sources */,
-				3A72C2CB2A3CC3CA005EAEFA /* UserDefaultsView.swift in Sources */,
+				3A72C2CB2A3CC3CA005EAEFA /* NavigationDefaultsView.swift in Sources */,
 				3A72C29D2A3C6181005EAEFA /* ExportAnnualAccountsView.swift in Sources */,
-				3A72C2CD2A3CC3D8005EAEFA /* UserDefaultsViewModel.swift in Sources */,
+				3A72C2CD2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift in Sources */,
 				3A72C2502A3C5E44005EAEFA /* Service.swift in Sources */,
 				3A72C2842A3C6052005EAEFA /* CreateOfferView.swift in Sources */,
 				3A72C2B82A3C84CB005EAEFA /* Color+Accent.swift in Sources */,
@@ -594,13 +609,14 @@
 				3A72C24E2A3C5E44005EAEFA /* LedgerApp.swift in Sources */,
 				3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */,
 				3A72C2E22A3CC568005EAEFA /* Member.swift in Sources */,
+				3A72C2FE2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift in Sources */,
 				3A72C2A62A3C61E3005EAEFA /* LogView.swift in Sources */,
 				3A72C2972A3C6129005EAEFA /* ModifyCompanyView.swift in Sources */,
 				3A72C2952A3C6118005EAEFA /* CreateMemberView.swift in Sources */,
 				3A72C28A2A3C6089005EAEFA /* ExportInvoiceView.swift in Sources */,
 				3A72C2822A3C600F005EAEFA /* CalendarView.swift in Sources */,
 				3A72C2BD2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift in Sources */,
-				3A72C2CF2A3CC3E9005EAEFA /* UserDefaults.swift in Sources */,
+				3A72C2CF2A3CC3E9005EAEFA /* NavigationDefaults.swift in Sources */,
 				3A72C2B22A3C80D6005EAEFA /* Coordinator.swift in Sources */,
 				3A72C2922A3C60ED005EAEFA /* ModifyServiceView.swift in Sources */,
 				3A72C2A42A3C61C9005EAEFA /* ExportWorkingHoursView.swift in Sources */,

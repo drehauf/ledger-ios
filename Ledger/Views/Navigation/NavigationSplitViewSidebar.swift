@@ -22,18 +22,14 @@ struct NavigationSplitViewSidebar: View {
                 NavigationLink("Arbeitsstunden", value: Destination.workingHours)
             }
             NavigationLink("Logbuch", value: Destination.log)
+            Button("Abmelden", action: viewModel.onLogout)
         }
         .navigationTitle("Dreh Auf")
-        .navigationBarItems(
-            trailing:
-                Menu {
-                    Button("Einstellungen", action: viewModel.onOpenSettings)
-                    Button("Abmelden", action: viewModel.onLogout)
-                } label: {
-                    if let name = viewModel.name {
-                        Text(name)
-                    }
-                }
-        )
+        .toolbar {
+            Button(viewModel.name ?? "Einstellungen", action: viewModel.onShowDefaults)
+        }
+        .sheet(isPresented: $viewModel.showDefaults) {
+            NavigationDefaultsView(viewModel: NavigationDefaultsViewModel())
+        }
     }
 }

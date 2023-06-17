@@ -4,6 +4,8 @@ final class NavigationSplitViewSidebarViewModel: ObservableObject {
     @ObservedObject var coordinator: Coordinator
     @Binding var selectedDestination: Destination?
 
+    @Published var showDefaults = false
+    
     var name: String? {
         coordinator.user?.name
     }
@@ -20,7 +22,7 @@ final class NavigationSplitViewSidebarViewModel: ObservableObject {
         coordinator.user = nil
     }
 
-    func onOpenSettings() {
-        coordinator.showSettings = true
+    func onShowDefaults() {
+        showDefaults = true
     }
 }

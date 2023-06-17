@@ -6,7 +6,7 @@ struct NavigationSplitViewContent: View {
     var body: some View {
         switch viewModel.coordinator.selectedDestination {
         case .calendar:
-            CalendarView()
+            CalendarView(viewModel: CalendarViewModel())
         case .offers:
             Text("Angebote")
         case .invoices:
