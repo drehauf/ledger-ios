@@ -11,15 +11,15 @@ import SwiftUI
 //                        columnVisibility: $coordinator.userDefaultsViewModel.userDefaults.columnVisibility,
 //                        preferredCompactColumn: $coordinator.userDefaultsViewModel.userDefaults.preferredCompactColumn
                     ) {
-                        NavigationSplitViewSidebar(viewModel: coordinator.sidebarViewModel)
+                        NavigationSplitViewSidebar(viewModel: NavigationSplitViewSidebarViewModel(coordinator: coordinator))
                     } content: {
-                        NavigationSplitViewContent(viewModel: coordinator.contentViewModel)
+                        NavigationSplitViewContent(viewModel: NavigationSplitViewContentViewModel(coordinator: coordinator))
                     } detail: {
-                        NavigationSplitViewDetail(viewModel: coordinator.detailViewModel)
+                        NavigationSplitViewDetail(viewModel: NavigationSplitViewDetailViewModel(coordinator: coordinator))
                     }
                     .customTitleAppearance()
                 } else {
-                    LoginView(viewModel: coordinator.loginViewModel)
+                    LoginView(viewModel: LoginViewModel(coordinator: coordinator))
                 }
             }
 //            .tint(coordinator.userDefaultsViewModel.userDefaults.tintColor)
