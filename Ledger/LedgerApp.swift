@@ -17,11 +17,11 @@ import SwiftUI
                     } detail: {
                         DetailView(viewModel: DetailViewModel(coordinator: coordinator))
                     }
-                    .customTitleAppearance()
                 } else {
                     LoginView(viewModel: LoginViewModel(coordinator: coordinator))
                 }
             }
+            .customTitleAppearance()
 //            .tint(coordinator.userDefaultsViewModel.userDefaults.tintColor)
         }
     }

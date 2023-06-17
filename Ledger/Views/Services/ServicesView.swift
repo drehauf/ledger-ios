@@ -4,7 +4,11 @@ struct ServicesView: View {
     @ObservedObject var viewModel: ServicesViewModel
 
     var body: some View {
-        Text("Dienstleistungen")
-            .navigationTitle("Dienstleistungen")
+        List(selection: $viewModel.selectedService) {
+            ForEach(viewModel.services) { service in
+                Text("\(service.id)")
+            }
+        }
+        .navigationTitle("Dienstleistungen")
     }
 }

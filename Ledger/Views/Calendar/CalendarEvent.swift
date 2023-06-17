@@ -1,5 +1,6 @@
 import Foundation
 
-struct Company {
+struct CalendarEvent {
     let name: String
+    let date: Date
 }

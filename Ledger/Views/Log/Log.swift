@@ -1,3 +1,5 @@
 import Foundation
 
-struct Log {}
+struct Log: Identifiable, Hashable {
+    let id = UUID()
+}

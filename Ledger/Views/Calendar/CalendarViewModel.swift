@@ -2,12 +2,12 @@ import SwiftUI
 
 final class CalendarViewModel: ObservableObject {
     @Published var calendar: Calendar
-    @Published var events: [Event]
+    @Published var events: [CalendarEvent]
 
     @Published var showDefaults = false
 
-    init() {
-        self.calendar = Calendar(including: .days(-3...3))
+    init(calendar: Calendar, events: [CalendarEvent]) {
+        self.calendar = calendar
         self.events = []
     }
 

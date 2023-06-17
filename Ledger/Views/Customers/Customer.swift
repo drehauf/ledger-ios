@@ -1,3 +1,5 @@
 import Foundation
 
-struct Customer {}
+struct Customer: Identifiable, Hashable {
+    let id = UUID()
+}

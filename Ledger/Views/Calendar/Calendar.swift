@@ -1,10 +1,5 @@
 import Foundation
 
-struct Event {
-    let name: String
-    let date: Date
-}
-
 struct Calendar {
     enum Stride {
         case days(ClosedRange<Int>)
@@ -31,13 +26,13 @@ struct Calendar {
 
     init(
         calendar: Foundation.Calendar = .autoupdatingCurrent,
-        including stride: Stride
+        including stride: Stride? = nil
     ) {
         self.calendar = calendar
         
-        self.dates = stride.range.compactMap { value in
+        self.dates = stride?.range.compactMap { value in
             calendar.date(byAdding: .day, value: value, to: .now)
-        }
+        } ?? []
     
         self.current = dates.first { date in
             calendar.isDateInToday(date)

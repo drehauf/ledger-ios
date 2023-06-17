@@ -1,3 +1,5 @@
 import Foundation
 
-struct Offer {}
+struct Offer: Identifiable, Hashable {
+    let id = UUID()
+}

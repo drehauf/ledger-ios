@@ -4,7 +4,11 @@ struct LoansView: View {
     @ObservedObject var viewModel: LoansViewModel
 
     var body: some View {
-        Text("Darlehen")
-            .navigationTitle("Darlehen")
+        List(selection: $viewModel.selectedLoan) {
+            ForEach(viewModel.loans) { loan in
+                Text("\(loan.id)")
+            }
+        }
+        .navigationTitle("Darlehen")
     }
 }

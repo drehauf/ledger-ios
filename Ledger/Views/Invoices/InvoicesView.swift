@@ -4,7 +4,11 @@ struct InvoicesView: View {
     @ObservedObject var viewModel: InvoicesViewModel
 
     var body: some View {
-        Text("Rechnungen")
-            .navigationTitle("Rechnungen")
+        List(selection: $viewModel.selectedInvoice) {
+            ForEach(viewModel.invoices) { invoice in
+                Text("\(invoice.id)")
+            }
+        }
+        .navigationTitle("Rechnungen")
     }
 }

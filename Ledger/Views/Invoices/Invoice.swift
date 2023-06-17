@@ -1,3 +1,5 @@
 import Foundation
 
-struct Invoice {}
+struct Invoice: Identifiable, Hashable {
+    let id = UUID()
+}

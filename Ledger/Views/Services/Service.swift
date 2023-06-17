@@ -1,3 +1,5 @@
 import Foundation
 
-struct Service {}
+struct Service: Identifiable, Hashable {
+    let id = UUID()
+}

@@ -1,3 +1,5 @@
 import Foundation
 
-struct Account {}
+struct Account: Identifiable, Hashable {
+    let id = UUID()
+}

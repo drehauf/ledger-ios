@@ -1,3 +1,5 @@
 import Foundation
 
-struct WorkingHour {}
+struct WorkingHour: Identifiable, Hashable {
+    let id = UUID()
+}

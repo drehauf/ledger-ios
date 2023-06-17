@@ -1,3 +1,5 @@
 import Foundation
 
-struct Member {}
+struct Member: Identifiable, Hashable {
+    let id = UUID()
+}

@@ -1,3 +1,5 @@
 import Foundation
 
-struct Loan {}
+struct Loan: Identifiable, Hashable {
+    let id = UUID()
+}

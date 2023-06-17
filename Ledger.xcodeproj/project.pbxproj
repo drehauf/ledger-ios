@@ -89,6 +89,7 @@
 		3A72C3242A3DCE35005EAEFA /* WorkingHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C3232A3DCE35005EAEFA /* WorkingHoursView.swift */; };
 		3A72C3262A3DCE88005EAEFA /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C3252A3DCE88005EAEFA /* LogViewModel.swift */; };
 		3A72C3282A3DCEF9005EAEFA /* WorkingHoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C3272A3DCEF9005EAEFA /* WorkingHoursViewModel.swift */; };
+		3A72C32A2A3DD751005EAEFA /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C3292A3DD751005EAEFA /* CalendarEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +195,7 @@
 		3A72C3232A3DCE35005EAEFA /* WorkingHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHoursView.swift; sourceTree = "<group>"; };
 		3A72C3252A3DCE88005EAEFA /* LogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
 		3A72C3272A3DCEF9005EAEFA /* WorkingHoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHoursViewModel.swift; sourceTree = "<group>"; };
+		3A72C3292A3DD751005EAEFA /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +340,7 @@
 				3A72C2FD2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift */,
 				3A72C2F72A3CE38D005EAEFA /* CalendarViewModel.swift */,
 				3A72C2D52A3CC491005EAEFA /* Calendar.swift */,
+				3A72C3292A3DD751005EAEFA /* CalendarEvent.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 				3A72C2992A3C6136005EAEFA /* CreateCustomerView.swift in Sources */,
 				3A72C2E22A3CC568005EAEFA /* Member.swift in Sources */,
 				3A72C3202A3DCDFF005EAEFA /* LoansView.swift in Sources */,
+				3A72C32A2A3DD751005EAEFA /* CalendarEvent.swift in Sources */,
 				3A72C3242A3DCE35005EAEFA /* WorkingHoursView.swift in Sources */,
 				3A72C3102A3DCCE2005EAEFA /* MembersView.swift in Sources */,
 				3A72C2FE2A3DB703005EAEFA /* CalendarDefaultsViewModel.swift in Sources */,

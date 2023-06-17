@@ -1,3 +1,5 @@
 import Foundation
 
-struct Inventory {}
+struct Inventory: Identifiable, Hashable {
+    let id = UUID()
+}
