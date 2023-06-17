@@ -1,6 +1,6 @@
 import Foundation
 
-enum Destination {
+enum NavigationItem {
     case calendar
     case offers
     case invoices

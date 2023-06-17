@@ -4,31 +4,31 @@ struct NavigationSplitViewContent: View {
     @ObservedObject var viewModel: NavigationSplitViewContentViewModel
 
     var body: some View {
-        switch viewModel.coordinator.selectedDestination {
+        switch viewModel.coordinator.navigationItem {
         case .calendar:
             CalendarView(viewModel: CalendarViewModel())
         case .offers:
-            Text("Angebote")
+            OffersView(viewModel: OffersViewModel())
         case .invoices:
-            Text("Rechnungen")
+            InvoicesView(viewModel: InvoicesViewModel())
         case .services:
-            Text("Dienstleistungen")
+            ServicesView(viewModel: ServicesViewModel())
         case .inventory:
-            Text("Inventar")
+            InventoriesView(viewModel: InventoriesViewModel())
         case .members:
-            Text("Gesellschafter")
+            MembersView(viewModel: MembersViewModel())
         case .company:
-            Text("Firma")
+            CompanyView(viewModel: CompanyViewModel())
         case .customers:
-            Text("Kunden")
+            CustomersView(viewModel: CustomersViewModel())
         case .accounts:
-            Text("Jahresabschlüsse")
+            AccountsView(viewModel: AccountsViewModel())
         case .loans:
-            Text("Darlehen")
+            LoansView(viewModel: LoansViewModel())
         case .workingHours:
-            Text("Arbeitsstunden")
+            WorkingHoursView(viewModel: WorkingHoursViewModel())
         case .log:
-            Text("Logbuch")
+            LogView(viewModel: LogViewModel())
         case nil:
             Text("Keine Auswahl")
         }

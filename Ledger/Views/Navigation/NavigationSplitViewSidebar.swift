@@ -4,24 +4,24 @@ struct NavigationSplitViewSidebar: View {
     @ObservedObject var viewModel: NavigationSplitViewSidebarViewModel
     
     var body: some View {
-        List(selection: $viewModel.coordinator.selectedDestination) {
+        List(selection: $viewModel.coordinator.navigationItem) {
             DisclosureGroup("Tagesgeschäft") {
-                NavigationLink("Kalender", value: Destination.calendar)
-                NavigationLink("Angebote", value: Destination.offers)
-                NavigationLink("Rechnungen", value: Destination.invoices)
+                NavigationLink("Kalender", value: NavigationItem.calendar)
+                NavigationLink("Angebote", value: NavigationItem.offers)
+                NavigationLink("Rechnungen", value: NavigationItem.invoices)
             }
             DisclosureGroup("Firma") {
-                NavigationLink("Inventar", value: Destination.inventory)
-                NavigationLink("Gesellschafter", value: Destination.members)
-                NavigationLink("Firma", value: Destination.company)
-                NavigationLink("Kunden", value: Destination.customers)
+                NavigationLink("Inventar", value: NavigationItem.inventory)
+                NavigationLink("Gesellschafter", value: NavigationItem.members)
+                NavigationLink("Firma", value: NavigationItem.company)
+                NavigationLink("Kunden", value: NavigationItem.customers)
             }
             DisclosureGroup("Verpflichtungen") {
-                NavigationLink("Jahresabschlüsse", value: Destination.accounts)
-                NavigationLink("Darlehen", value: Destination.loans)
-                NavigationLink("Arbeitsstunden", value: Destination.workingHours)
+                NavigationLink("Jahresabschlüsse", value: NavigationItem.accounts)
+                NavigationLink("Darlehen", value: NavigationItem.loans)
+                NavigationLink("Arbeitsstunden", value: NavigationItem.workingHours)
             }
-            NavigationLink("Logbuch", value: Destination.log)
+            NavigationLink("Logbuch", value: NavigationItem.log)
             Button("Abmelden", action: viewModel.onLogout)
         }
         .navigationTitle("Dreh Auf")

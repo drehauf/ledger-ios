@@ -1,20 +1,8 @@
 import SwiftUI
 
 final class NavigationCoordinator: ObservableObject {
-//    @Published private var calendar = Calendar()
-    @Published private var offers = [Offer]()
-    @Published private var invoices = [Invoice]()
-    @Published private var inventories = [Inventory]()
-    @Published private var members = [Member]()
-    @Published private var company = Company()
-    @Published private var customers = [Customer]()
-    @Published private var accounts = [Account]()
-    @Published private var loans = [Loan]()
-    @Published private var workingHours = [WorkingHour]()
-    @Published private var log = Log()
-
     @Published var user: User? = nil
-    @Published var selectedDestination: Destination?
+    @Published var navigationItem: NavigationItem?
     
     @Published var loginViewModel: LoginViewModel!
     @Published var sidebarViewModel: NavigationSplitViewSidebarViewModel!
@@ -31,6 +19,6 @@ final class NavigationCoordinator: ObservableObject {
         self.contentViewModel = NavigationSplitViewContentViewModel(coordinator: self)
         self.detailViewModel = NavigationSplitViewDetailViewModel(coordinator: self)
 
-        self.selectedDestination = .calendar
+        self.navigationItem = .calendar
     }
 }
