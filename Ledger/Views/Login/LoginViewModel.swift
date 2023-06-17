@@ -1,7 +1,7 @@
 import SwiftUI
 
 final class LoginViewModel: ObservableObject {
-    @ObservedObject var coordinator: Coordinator
+    @ObservedObject var coordinator: NavigationCoordinator
 
     @Published var mail: String = ""
     @Published var password: String = ""
@@ -10,7 +10,7 @@ final class LoginViewModel: ObservableObject {
         mail.isEmpty || password.isEmpty
     }
 
-    init(coordinator: Coordinator) {
+    init(coordinator: NavigationCoordinator) {
         self.coordinator = coordinator
     }
 

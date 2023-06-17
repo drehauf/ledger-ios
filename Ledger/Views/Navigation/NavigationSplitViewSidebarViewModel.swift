@@ -1,8 +1,7 @@
 import SwiftUI
 
 final class NavigationSplitViewSidebarViewModel: ObservableObject {
-    @ObservedObject var coordinator: Coordinator
-    @Binding var selectedDestination: Destination?
+    @ObservedObject var coordinator: NavigationCoordinator
 
     @Published var showDefaults = false
     
@@ -10,12 +9,8 @@ final class NavigationSplitViewSidebarViewModel: ObservableObject {
         coordinator.user?.name
     }
 
-    init(coordinator: Coordinator) {
+    init(coordinator: NavigationCoordinator) {
         self.coordinator = coordinator
-        self._selectedDestination = Binding(
-            get: { coordinator.selectedDestination },
-            set: { newValue in coordinator.selectedDestination = newValue }
-        )
     }
 
     func onLogout() {

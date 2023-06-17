@@ -32,5 +32,5 @@ private enum Constants {
 }
 
 #Preview {
-    LoginView(viewModel: LoginViewModel(coordinator: Coordinator()))
+    LoginView(viewModel: LoginViewModel(coordinator: NavigationCoordinator()))
 }

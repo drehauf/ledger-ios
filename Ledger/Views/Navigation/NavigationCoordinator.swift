@@ -1,6 +1,6 @@
 import SwiftUI
 
-final class Coordinator: ObservableObject {
+final class NavigationCoordinator: ObservableObject {
 //    @Published private var calendar = Calendar()
     @Published private var offers = [Offer]()
     @Published private var invoices = [Invoice]()

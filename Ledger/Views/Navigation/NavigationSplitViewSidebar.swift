@@ -4,7 +4,7 @@ struct NavigationSplitViewSidebar: View {
     @ObservedObject var viewModel: NavigationSplitViewSidebarViewModel
     
     var body: some View {
-        List(selection: $viewModel.selectedDestination) {
+        List(selection: $viewModel.coordinator.selectedDestination) {
             DisclosureGroup("Tagesgeschäft") {
                 NavigationLink("Kalender", value: Destination.calendar)
                 NavigationLink("Angebote", value: Destination.offers)

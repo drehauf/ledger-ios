@@ -39,7 +39,7 @@
 		3A72C2AA2A3C641F005EAEFA /* ExportOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */; };
 		3A72C2AE2A3C6A08005EAEFA /* View+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2AD2A3C6A08005EAEFA /* View+Title.swift */; };
 		3A72C2B02A3C6C21005EAEFA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2AF2A3C6C21005EAEFA /* LoginView.swift */; };
-		3A72C2B22A3C80D6005EAEFA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B12A3C80D6005EAEFA /* Coordinator.swift */; };
+		3A72C2B22A3C80D6005EAEFA /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B12A3C80D6005EAEFA /* NavigationCoordinator.swift */; };
 		3A72C2B42A3C80EB005EAEFA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B32A3C80EB005EAEFA /* LoginViewModel.swift */; };
 		3A72C2B82A3C84CB005EAEFA /* Color+Accent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2B72A3C84CB005EAEFA /* Color+Accent.swift */; };
 		3A72C2BB2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */; };
@@ -123,7 +123,7 @@
 		3A72C2A92A3C641F005EAEFA /* ExportOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOfferView.swift; sourceTree = "<group>"; };
 		3A72C2AD2A3C6A08005EAEFA /* View+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Title.swift"; sourceTree = "<group>"; };
 		3A72C2AF2A3C6C21005EAEFA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		3A72C2B12A3C80D6005EAEFA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3A72C2B12A3C80D6005EAEFA /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		3A72C2B32A3C80EB005EAEFA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3A72C2B72A3C84CB005EAEFA /* Color+Accent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Accent.swift"; sourceTree = "<group>"; };
 		3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewSidebar.swift; sourceTree = "<group>"; };
@@ -206,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				3A72C24D2A3C5E44005EAEFA /* LedgerApp.swift */,
-				3A72C2B12A3C80D6005EAEFA /* Coordinator.swift */,
 				3A72C2B52A3C80FC005EAEFA /* Views */,
 				3A72C2AB2A3C69FB005EAEFA /* Extensions */,
 				3A72C2512A3C5E45005EAEFA /* Assets.xcassets */,
@@ -261,7 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				3A72C2F62A3CC74B005EAEFA /* Navigation */,
-				3A72C2C92A3CC3C2005EAEFA /* UserDefaults */,
 				3A72C2F52A3CC677005EAEFA /* Services */,
 				3A72C2F22A3CC65D005EAEFA /* Log */,
 				3A72C2EF2A3CC646005EAEFA /* WorkingHours */,
@@ -287,16 +285,6 @@
 				3A72C2D02A3CC43E005EAEFA /* User.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		3A72C2C92A3CC3C2005EAEFA /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				3A72C2CA2A3CC3CA005EAEFA /* NavigationDefaultsView.swift */,
-				3A72C2CC2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift */,
-				3A72C2CE2A3CC3E9005EAEFA /* NavigationDefaults.swift */,
-			);
-			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		3A72C2D42A3CC481005EAEFA /* Calendar */ = {
@@ -423,11 +411,15 @@
 		3A72C2F62A3CC74B005EAEFA /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				3A72C2B12A3C80D6005EAEFA /* NavigationCoordinator.swift */,
 				3A72C2C52A3CA893005EAEFA /* NavigationSplitViewDetail.swift */,
 				3A72C2C72A3CA8A3005EAEFA /* NavigationSplitViewDetailViewModel.swift */,
 				3A72C2BA2A3CA820005EAEFA /* NavigationSplitViewSidebar.swift */,
 				3A72C2BC2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift */,
 				3A72C2D22A3CC453005EAEFA /* Destination.swift */,
+				3A72C2CA2A3CC3CA005EAEFA /* NavigationDefaultsView.swift */,
+				3A72C2CC2A3CC3D8005EAEFA /* NavigationDefaultsViewModel.swift */,
+				3A72C2CE2A3CC3E9005EAEFA /* NavigationDefaults.swift */,
 				3A72C2C12A3CA85F005EAEFA /* NavigationSplitViewContent.swift */,
 				3A72C2C32A3CA880005EAEFA /* NavigationSplitViewContentViewModel.swift */,
 			);
@@ -617,7 +609,7 @@
 				3A72C2822A3C600F005EAEFA /* CalendarView.swift in Sources */,
 				3A72C2BD2A3CA836005EAEFA /* NavigationSplitViewSidebarViewModel.swift in Sources */,
 				3A72C2CF2A3CC3E9005EAEFA /* NavigationDefaults.swift in Sources */,
-				3A72C2B22A3C80D6005EAEFA /* Coordinator.swift in Sources */,
+				3A72C2B22A3C80D6005EAEFA /* NavigationCoordinator.swift in Sources */,
 				3A72C2922A3C60ED005EAEFA /* ModifyServiceView.swift in Sources */,
 				3A72C2A42A3C61C9005EAEFA /* ExportWorkingHoursView.swift in Sources */,
 			);

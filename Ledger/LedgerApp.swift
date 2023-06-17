@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main struct LedgerApp: App {
-    @ObservedObject var coordinator = Coordinator()
+    @ObservedObject var coordinator = NavigationCoordinator()
 
     var body: some Scene {
         WindowGroup {

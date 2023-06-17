@@ -1,9 +1,9 @@
 import SwiftUI
 
 final class NavigationSplitViewContentViewModel: ObservableObject {
-    @ObservedObject var coordinator: Coordinator
+    @ObservedObject var coordinator: NavigationCoordinator
 
-    init(coordinator: Coordinator) {
+    init(coordinator: NavigationCoordinator) {
         self.coordinator = coordinator
     }
 }
