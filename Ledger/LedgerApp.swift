@@ -11,11 +11,11 @@ import SwiftUI
 //                        columnVisibility: $coordinator.userDefaultsViewModel.userDefaults.columnVisibility,
 //                        preferredCompactColumn: $coordinator.userDefaultsViewModel.userDefaults.preferredCompactColumn
                     ) {
-                        NavigationSplitViewSidebar(viewModel: NavigationSplitViewSidebarViewModel(coordinator: coordinator))
+                        SidebarView(viewModel: SidebarViewModel(coordinator: coordinator))
                     } content: {
-                        NavigationSplitViewContent(viewModel: NavigationSplitViewContentViewModel(coordinator: coordinator))
+                        ContentView(viewModel: ContentViewModel(coordinator: coordinator))
                     } detail: {
-                        NavigationSplitViewDetail(viewModel: NavigationSplitViewDetailViewModel(coordinator: coordinator))
+                        DetailView(viewModel: DetailViewModel(coordinator: coordinator))
                     }
                     .customTitleAppearance()
                 } else {

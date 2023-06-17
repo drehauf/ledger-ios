@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct NavigationSplitViewSidebar: View {
-    @ObservedObject var viewModel: NavigationSplitViewSidebarViewModel
+struct SidebarView: View {
+    @ObservedObject var viewModel: SidebarViewModel
     
     var body: some View {
         List(selection: $viewModel.coordinator.navigationItem) {

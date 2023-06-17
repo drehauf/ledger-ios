@@ -1,6 +1,6 @@
 import SwiftUI
 
-final class NavigationSplitViewSidebarViewModel: ObservableObject {
+final class SidebarViewModel: ObservableObject {
     @ObservedObject var coordinator: NavigationCoordinator
 
     @Published var showDefaults = false

@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct NavigationSplitViewDetail: View {
-    @ObservedObject var viewModel: NavigationSplitViewDetailViewModel
+struct DetailView: View {
+    @ObservedObject var viewModel: DetailViewModel
 
     var body: some View {
         Text("Detail")

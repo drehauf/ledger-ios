@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct NavigationSplitViewContent: View {
-    @ObservedObject var viewModel: NavigationSplitViewContentViewModel
+struct ContentView: View {
+    @ObservedObject var viewModel: ContentViewModel
 
     var body: some View {
         switch viewModel.coordinator.navigationItem {
